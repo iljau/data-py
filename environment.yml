@@ -1,0 +1,27 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - fastapi
+  - uvicorn
+  - sqlalchemy
+  - zstandard
+  - zstd
+  - scikit-learn
+  - jinja2
+  - tabulate
+  - importlib_resources
+  - watchfiles
+  - joblib
+  - click
+  - scikit-surprise
+  - cornac
+  - yellowbrick
+  - implicit
+  # select blas
+  - libblas=*=*openblas
+  # select cpu version
+  - implicit-proc=*=cpu
+  # linux-only
+  - _openmp_mutex=*=*_llvm
